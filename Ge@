@@ -123,7 +123,7 @@ UIAspectRatioConstraint_6.AspectRatio = 5.080
 UIAspectRatioConstraint_6.DominantAxis = Enum.DominantAxis.Height
 
 -- Copiar link do Discord para a área de transferência
-local discordLink = "https://direct-link.net/409098/synix-hub-key2"
+local discordLink = "https://link-center.net/409098/synix-hub-key1"
 setclipboard(discordLink)
 
 local duration = 2 -- Duração da notificação em segundos
