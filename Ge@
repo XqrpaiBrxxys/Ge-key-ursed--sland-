@@ -1,0 +1,141 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local notfic = Instance.new("ScreenGui")
+local backNOT = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local div = Instance.new("Frame")
+local div1 = Instance.new("Frame")
+local SynixText = Instance.new("TextLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local textarea = Instance.new("Frame")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local textanot = Instance.new("TextLabel")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+
+-- Properties:
+
+notfic.Name = "notfic"
+notfic.Parent = game:GetService("CoreGui")
+notfic.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+backNOT.Name = "backNOT"
+backNOT.Parent = notfic
+backNOT.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+backNOT.BackgroundTransparency = 0.400
+backNOT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+backNOT.BorderSizePixel = 0
+backNOT.Position = UDim2.new(0.776361048, 0, 0.709379315, 0)
+backNOT.Size = UDim2.new(0.384245038, 0, 0.183602542, 0)
+
+UICorner.Parent = backNOT
+
+UIAspectRatioConstraint.Parent = backNOT
+UIAspectRatioConstraint.AspectRatio = 3.560
+
+div.Name = "div"
+div.Parent = backNOT
+div.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
+div.BackgroundTransparency = 1
+div.BorderColor3 = Color3.fromRGB(0, 0, 0)
+div.BorderSizePixel = 0
+div.Position = UDim2.new(-0.00190504093, 0, 0.401610732, 0)
+div.Size = UDim2.new(0.703590274, 0, 0.0135650374, 0)
+
+div1.Name = "div1"
+div1.Parent = backNOT
+div1.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
+div1.BackgroundTransparency = 0.500
+div1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+div1.BorderSizePixel = 0
+div1.Position = UDim2.new(-0.00190504093, 0, 0.401610732, 0)
+div1.Size = UDim2.new(0.703590274, 0, 0.0135650374, 0)
+
+SynixText.Name = "SynixText"
+SynixText.Parent = div
+SynixText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SynixText.BackgroundTransparency = 1.000
+SynixText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SynixText.BorderSizePixel = 0
+SynixText.Position = UDim2.new(0.174563825, 0, -25.2587624, 0)
+SynixText.Size = UDim2.new(0.695285857, 0, 19.9284687, 0)
+SynixText.Font = Enum.Font.GothamBlack
+SynixText.Text = "SyniX - Notific"
+SynixText.TextColor3 = Color3.fromRGB(255, 255, 255)
+SynixText.TextScaled = true
+SynixText.TextSize = 11.000
+SynixText.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SynixText.TextWrapped = true
+
+UIAspectRatioConstraint_2.Parent = SynixText
+UIAspectRatioConstraint_2.AspectRatio = 5.583
+
+ImageLabel.Parent = div
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0560515448, 0, -26.2637463, 0)
+ImageLabel.Size = UDim2.new(0.127630442, 0, 21.7752609, 0)
+ImageLabel.Image = "rbxassetid://15133995245"
+
+UIAspectRatioConstraint_3.Parent = ImageLabel
+
+UIAspectRatioConstraint_4.Parent = div
+UIAspectRatioConstraint_4.AspectRatio = 184.650
+
+textarea.Name = "textarea"
+textarea.Parent = backNOT
+textarea.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+textarea.BackgroundTransparency = 1.000
+textarea.BorderColor3 = Color3.fromRGB(0, 0, 0)
+textarea.BorderSizePixel = 0
+textarea.Position = UDim2.new(0, 0, 0.415175945, 0)
+textarea.Size = UDim2.new(0.701685667, 0, 0.582388222, 0)
+
+UIAspectRatioConstraint_5.Parent = textarea
+UIAspectRatioConstraint_5.AspectRatio = 4.289
+
+textanot.Name = "textanot"
+textanot.Parent = textarea
+textanot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+textanot.BackgroundTransparency = 1.000
+textanot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+textanot.BorderSizePixel = 0
+textanot.Position = UDim2.new(0.0892357156, 0, 0.159190118, 0)
+textanot.Size = UDim2.new(0.762829661, 0, 1.50985551, 0)
+textanot.Font = Enum.Font.GothamBlack
+textanot.LineHeight = 0.850
+textanot.Text = "Get Key link copied to clipboard"
+textanot.TextColor3 = Color3.fromRGB(255, 255, 255)
+textanot.TextScaled = true
+textanot.TextSize = 5.000
+textanot.TextWrapped = true
+
+UIAspectRatioConstraint_6.Parent = textanot
+UIAspectRatioConstraint_6.AspectRatio = 5.080
+UIAspectRatioConstraint_6.DominantAxis = Enum.DominantAxis.Height
+
+-- Copiar link do Discord para a área de transferência
+local discordLink = "https://direct-link.net/409098/synix-hub-key2"
+setclipboard(discordLink)
+
+local duration = 2 -- Duração da notificação em segundos
+local endTime = tick() + duration
+
+while tick() < endTime do
+    local remainingTime = endTime - tick()
+    local scaleFactor = remainingTime / duration
+    div1.Size = UDim2.new(scaleFactor, 0, 0.0135650374, 0)
+    wait(0.1) -- Atualize o tamanho a cada 0.1 segundo (você pode ajustar esse valor conforme necessário)
+end
+
+-- Agora que o tempo acabou, você pode esconder e remover a notificação
+div1.Visible = false
+backNOT:Destroy() -- Isso remove o frame completamente
